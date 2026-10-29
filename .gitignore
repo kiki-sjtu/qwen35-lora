@@ -1,0 +1,28 @@
+# Local environment and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.idea/
+.vscode/
+.env
+.env.*
+
+# Downloaded base models and local training outputs
+/models/
+/checkpoints/
+/artifacts/
+/archives/
+/logs/
+*.pt
+*.pth
+*.bin
+
+# Complete local datasets; this repository includes examples only
+/data/train.jsonl
+/data/dev.jsonl
+/data/dev_original.jsonl
+/data/backups/
+/data/provenance/
+/data/reports/

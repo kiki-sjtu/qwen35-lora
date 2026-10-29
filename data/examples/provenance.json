@@ -1,0 +1,66 @@
+{
+  "train": [
+    {
+      "source_type": "synthetic",
+      "task": "classification",
+      "generator": "category_review_composition_v1"
+    },
+    {
+      "source_type": "synthetic",
+      "task": "classification",
+      "generator": "category_review_composition_v1"
+    },
+    {
+      "source_type": "synthetic",
+      "task": "relation",
+      "generator": "explicit_relation_clauses_v1"
+    },
+    {
+      "source_type": "synthetic",
+      "task": "relation",
+      "generator": "explicit_relation_clauses_v1"
+    },
+    {
+      "source_type": "synthetic",
+      "task": "relation",
+      "generator": "explicit_relation_clauses_v1"
+    },
+    {
+      "source_type": "synthetic",
+      "task": "classification",
+      "generator": "category_review_composition_v1"
+    },
+    {
+      "source_type": "synthetic",
+      "task": "relation",
+      "generator": "explicit_relation_clauses_v1"
+    },
+    {
+      "source_type": "synthetic",
+      "task": "classification",
+      "generator": "category_review_composition_v1"
+    }
+  ],
+  "dev": [
+    {
+      "source_type": "synthetic",
+      "task": "classification",
+      "generator": "category_review_composition_v1"
+    },
+    {
+      "source_type": "synthetic",
+      "task": "classification",
+      "generator": "category_review_composition_v1"
+    },
+    {
+      "source_type": "synthetic",
+      "task": "relation",
+      "generator": "explicit_relation_clauses_v1"
+    },
+    {
+      "source_type": "synthetic",
+      "task": "relation",
+      "generator": "explicit_relation_clauses_v1"
+    }
+  ]
+}

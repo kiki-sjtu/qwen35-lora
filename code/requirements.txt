@@ -1,0 +1,8 @@
+# CUDA torch is reused from this computer via --system-site-packages.
+torch>=2.6,<3
+transformers==5.21.0
+peft==0.21.2
+accelerate==1.15.0
+tokenizers==0.23.3
+safetensors==0.8.0
+regex==2026.9.29
